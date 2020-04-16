@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F06F5F02448313F00B92928 /* TopMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06F5EE2448313F00B92928 /* TopMainView.swift */; };
+		3F06F5F12448313F00B92928 /* TopMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F06F5EF2448313F00B92928 /* TopMainView.xib */; };
 		3FC69A382448197500E30118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC69A372448197500E30118 /* AppDelegate.swift */; };
 		3FC69A3A2448197500E30118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC69A392448197500E30118 /* SceneDelegate.swift */; };
 		3FC69A3F2448197500E30118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC69A3D2448197500E30118 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		0C0300D2D1D7E4249B369FFA /* Pods-Git Collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Git Collection.release.xcconfig"; path = "Target Support Files/Pods-Git Collection/Pods-Git Collection.release.xcconfig"; sourceTree = "<group>"; };
+		3F06F5EE2448313F00B92928 /* TopMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainView.swift; sourceTree = "<group>"; };
+		3F06F5EF2448313F00B92928 /* TopMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainView.xib; sourceTree = "<group>"; };
 		3FC69A342448197500E30118 /* Git Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC69A372448197500E30118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC69A392448197500E30118 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			children = (
 				3FC69A4C2448246100E30118 /* TopViewController.swift */,
 				3FC69A4D2448246100E30118 /* TopViewController.xib */,
+				3F06F5EE2448313F00B92928 /* TopMainView.swift */,
+				3F06F5EF2448313F00B92928 /* TopMainView.xib */,
 			);
 			path = Top;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F06F5F12448313F00B92928 /* TopMainView.xib in Resources */,
 				3FC69A4F2448246100E30118 /* TopViewController.xib in Resources */,
 				3FC69A442448197700E30118 /* LaunchScreen.storyboard in Resources */,
 				3FC69A412448197700E30118 /* Assets.xcassets in Resources */,
@@ -221,6 +228,7 @@
 				3FC69A4E2448246100E30118 /* TopViewController.swift in Sources */,
 				3FC69A382448197500E30118 /* AppDelegate.swift in Sources */,
 				3FC69A3A2448197500E30118 /* SceneDelegate.swift in Sources */,
+				3F06F5F02448313F00B92928 /* TopMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

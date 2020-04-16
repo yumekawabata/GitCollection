@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopViewController" customModule="Git_Collection" customModuleProvider="target">
             <connections>
+                <outlet property="topMainView" destination="3QX-y2-gkk" id="R8J-VX-EKj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,7 +17,19 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3QX-y2-gkk" customClass="TopMainView" customModule="Git_Collection" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+            </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3QX-y2-gkk" secondAttribute="trailing" id="VIp-2i-aet"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="3QX-y2-gkk" secondAttribute="bottom" id="Xs0-4V-Di6"/>
+                <constraint firstItem="3QX-y2-gkk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="fe4-fW-lTX"/>
+                <constraint firstItem="3QX-y2-gkk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zBW-mc-MRN"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="139" y="133"/>
         </view>
