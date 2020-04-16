@@ -10,7 +10,6 @@ import UIKit
 import PGFramework
 // MARK: - Property
 class TopViewController: BaseViewController{
-    @IBOutlet weak var topMainView: TopMainView!
 }
 // MARK: - Life cycle
 extension TopViewController {
