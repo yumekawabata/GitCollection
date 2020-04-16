@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		3F06F5F02448313F00B92928 /* TopMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06F5EE2448313F00B92928 /* TopMainView.swift */; };
 		3F06F5F12448313F00B92928 /* TopMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F06F5EF2448313F00B92928 /* TopMainView.xib */; };
+		3F07072B24483DC2004E1A96 /* TopMainCellectionViewSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F07072924483DC2004E1A96 /* TopMainCellectionViewSecondCell.swift */; };
+		3F07072C24483DC2004E1A96 /* TopMainCellectionViewSecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F07072A24483DC2004E1A96 /* TopMainCellectionViewSecondCell.xib */; };
 		3FC69A382448197500E30118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC69A372448197500E30118 /* AppDelegate.swift */; };
 		3FC69A3A2448197500E30118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC69A392448197500E30118 /* SceneDelegate.swift */; };
 		3FC69A3F2448197500E30118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC69A3D2448197500E30118 /* Main.storyboard */; };
-		3FC69A412448197700E30118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC69A402448197700E30118 /* Assets.xcassets */; };
 		3FC69A442448197700E30118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC69A422448197700E30118 /* LaunchScreen.storyboard */; };
 		3FC69A4E2448246100E30118 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC69A4C2448246100E30118 /* TopViewController.swift */; };
 		3FC69A4F2448246100E30118 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC69A4D2448246100E30118 /* TopViewController.xib */; };
@@ -25,11 +26,12 @@
 		0C0300D2D1D7E4249B369FFA /* Pods-Git Collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Git Collection.release.xcconfig"; path = "Target Support Files/Pods-Git Collection/Pods-Git Collection.release.xcconfig"; sourceTree = "<group>"; };
 		3F06F5EE2448313F00B92928 /* TopMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainView.swift; sourceTree = "<group>"; };
 		3F06F5EF2448313F00B92928 /* TopMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainView.xib; sourceTree = "<group>"; };
+		3F07072924483DC2004E1A96 /* TopMainCellectionViewSecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainCellectionViewSecondCell.swift; sourceTree = "<group>"; };
+		3F07072A24483DC2004E1A96 /* TopMainCellectionViewSecondCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainCellectionViewSecondCell.xib; sourceTree = "<group>"; };
 		3FC69A342448197500E30118 /* Git Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC69A372448197500E30118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC69A392448197500E30118 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3FC69A3E2448197500E30118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FC69A402448197700E30118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC69A432448197700E30118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC69A452448197700E30118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC69A4C2448246100E30118 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +79,6 @@
 				3FC69A372448197500E30118 /* AppDelegate.swift */,
 				3FC69A392448197500E30118 /* SceneDelegate.swift */,
 				3FC69A3D2448197500E30118 /* Main.storyboard */,
-				3FC69A402448197700E30118 /* Assets.xcassets */,
 				3FC69A422448197700E30118 /* LaunchScreen.storyboard */,
 				3FC69A452448197700E30118 /* Info.plist */,
 			);
@@ -101,6 +102,8 @@
 			children = (
 				3FF7CA1324483598006356FF /* TopMainCollectionViewCell.swift */,
 				3FF7CA1424483598006356FF /* TopMainCollectionViewCell.xib */,
+				3F07072924483DC2004E1A96 /* TopMainCellectionViewSecondCell.swift */,
+				3F07072A24483DC2004E1A96 /* TopMainCellectionViewSecondCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -185,8 +188,8 @@
 				3F06F5F12448313F00B92928 /* TopMainView.xib in Resources */,
 				3FC69A4F2448246100E30118 /* TopViewController.xib in Resources */,
 				3FC69A442448197700E30118 /* LaunchScreen.storyboard in Resources */,
+				3F07072C24483DC2004E1A96 /* TopMainCellectionViewSecondCell.xib in Resources */,
 				3FF7CA1624483598006356FF /* TopMainCollectionViewCell.xib in Resources */,
-				3FC69A412448197700E30118 /* Assets.xcassets in Resources */,
 				3FC69A3F2448197500E30118 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +248,7 @@
 				3FC69A382448197500E30118 /* AppDelegate.swift in Sources */,
 				3FC69A3A2448197500E30118 /* SceneDelegate.swift in Sources */,
 				3F06F5F02448313F00B92928 /* TopMainView.swift in Sources */,
+				3F07072B24483DC2004E1A96 /* TopMainCellectionViewSecondCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

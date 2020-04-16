@@ -15,11 +15,13 @@ extension TopMainCollectionViewCellDelegate {
 // MARK: - Property
 class TopMainCollectionViewCell: BaseCollectionViewCell {
     weak var delegate: TopMainCollectionViewCellDelegate? = nil
+    @IBOutlet weak var roundView: UIView!
 }
 // MARK: - Life cycle
 extension TopMainCollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
+        roundView.layer.cornerRadius = 10
     }
 }
 // MARK: - Protocol
