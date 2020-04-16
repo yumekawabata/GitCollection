@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ooA-Sv-poA" customClass="TopMainCollectionViewCell" customModule="Git_Collection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="553"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jCO-AB-gCx">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="553"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qyp-78-50A">
+                        <rect key="frame" x="0.0" y="0.0" width="395" height="553"/>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Qyp-78-50A" firstAttribute="leading" secondItem="jCO-AB-gCx" secondAttribute="leading" id="RLO-PW-vEW"/>
+                    <constraint firstItem="Qyp-78-50A" firstAttribute="top" secondItem="jCO-AB-gCx" secondAttribute="top" id="XnU-XT-dtO"/>
+                    <constraint firstAttribute="trailing" secondItem="Qyp-78-50A" secondAttribute="trailing" id="ilZ-9w-fTs"/>
+                    <constraint firstAttribute="bottom" secondItem="Qyp-78-50A" secondAttribute="bottom" id="y9l-Hd-DWX"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="395" height="553"/>
+            <point key="canvasLocation" x="374.63768115942031" y="104.12946428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>
