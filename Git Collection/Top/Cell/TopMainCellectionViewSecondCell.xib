@@ -18,20 +18,7 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L3j-mx-Tkv">
                         <rect key="frame" x="0.0" y="0.0" width="146" height="234"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pink2" translatesAutoresizingMaskIntoConstraints="NO" id="ran-GX-Yec">
-                                <rect key="frame" x="0.0" y="10" width="146" height="105"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="105" id="6bD-0e-Ugb"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="0.02800271297" blue="0.6601671013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="ran-GX-Yec" secondAttribute="trailing" id="7WJ-rV-Zhq"/>
-                            <constraint firstItem="ran-GX-Yec" firstAttribute="top" secondItem="L3j-mx-Tkv" secondAttribute="top" constant="10" id="Gym-TO-bXy"/>
-                            <constraint firstItem="ran-GX-Yec" firstAttribute="leading" secondItem="L3j-mx-Tkv" secondAttribute="leading" id="QHw-bN-1kM"/>
-                        </constraints>
                     </view>
                 </subviews>
                 <constraints>
@@ -43,13 +30,9 @@
             </collectionViewCellContentView>
             <size key="customSize" width="146" height="234"/>
             <connections>
-                <outlet property="ImagesecondCell" destination="ran-GX-Yec" id="4dK-nK-Vps"/>
                 <outlet property="roundView" destination="L3j-mx-Tkv" id="fEk-uR-Vdh"/>
             </connections>
             <point key="canvasLocation" x="55.072463768115945" y="79.017857142857139"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="pink2" width="2767" height="2075"/>
-    </resources>
 </document>

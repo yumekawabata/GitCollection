@@ -14,7 +14,6 @@
 		3FC69A382448197500E30118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC69A372448197500E30118 /* AppDelegate.swift */; };
 		3FC69A3A2448197500E30118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC69A392448197500E30118 /* SceneDelegate.swift */; };
 		3FC69A3F2448197500E30118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC69A3D2448197500E30118 /* Main.storyboard */; };
-		3FC69A412448197700E30118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC69A402448197700E30118 /* Assets.xcassets */; };
 		3FC69A442448197700E30118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC69A422448197700E30118 /* LaunchScreen.storyboard */; };
 		3FC69A4E2448246100E30118 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC69A4C2448246100E30118 /* TopViewController.swift */; };
 		3FC69A4F2448246100E30118 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC69A4D2448246100E30118 /* TopViewController.xib */; };
@@ -33,7 +32,6 @@
 		3FC69A372448197500E30118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC69A392448197500E30118 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3FC69A3E2448197500E30118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FC69A402448197700E30118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC69A432448197700E30118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC69A452448197700E30118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC69A4C2448246100E30118 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				3FC69A372448197500E30118 /* AppDelegate.swift */,
 				3FC69A392448197500E30118 /* SceneDelegate.swift */,
 				3FC69A3D2448197500E30118 /* Main.storyboard */,
-				3FC69A402448197700E30118 /* Assets.xcassets */,
 				3FC69A422448197700E30118 /* LaunchScreen.storyboard */,
 				3FC69A452448197700E30118 /* Info.plist */,
 			);
@@ -193,7 +190,6 @@
 				3FC69A442448197700E30118 /* LaunchScreen.storyboard in Resources */,
 				3F07072C24483DC2004E1A96 /* TopMainCellectionViewSecondCell.xib in Resources */,
 				3FF7CA1624483598006356FF /* TopMainCollectionViewCell.xib in Resources */,
-				3FC69A412448197700E30118 /* Assets.xcassets in Resources */,
 				3FC69A3F2448197500E30118 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

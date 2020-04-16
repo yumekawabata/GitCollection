@@ -29,6 +29,9 @@
                 </constraints>
             </collectionViewCellContentView>
             <size key="customSize" width="395" height="553"/>
+            <connections>
+                <outlet property="roundView" destination="Qyp-78-50A" id="kvP-HB-gAq"/>
+            </connections>
             <point key="canvasLocation" x="374.63768115942031" y="104.12946428571428"/>
         </collectionViewCell>
     </objects>
