@@ -24,6 +24,8 @@ extension TopMainView {
         setDelegate()
         
         loadCollectionViewCellFromXib(collectionView: collectionView, cellName: "TopMainCollectionViewCell")
+        
+        loadCollectionViewCellFromXib(collectionView: collectionView, cellName: "TopMainCellectionViewSecondCell")
     }
 }
 // MARK: - Protocol
@@ -35,7 +37,20 @@ extension TopMainView: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
        
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TopMainCollectionViewCell", for: indexPath)as? TopMainCollectionViewCell else {return UICollectionViewCell()}
-        return cell
+        
+        guard let secondCell = collectionView.dequeueReusableCell(withReuseIdentifier: "TopMainCellectionViewSecondCell", for: indexPath)as? TopMainCellectionViewSecondCell else {return UICollectionViewCell()}
+        
+        switch indexPath.row {
+        case 0:
+            return cell
+        case 1:
+            return secondCell
+            
+        default:
+            return cell
+        }
+        
+      
     }
     
 }
